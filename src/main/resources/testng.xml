@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="CRM test suite" verbose="1" >
+  <test name="CRM application test" >
+  
+  
+  <listeners>
+		<listener class-name="com.crm.qa.ExtentReportListener.ExtentreportListener" />
+	</listeners>
+	
+    <classes>
+       <class name="com.crm.qa.testcases.LoginPageTest" />
+         <class name="com.crm.qa.testcases.HomePageTest" />
+          <class name="com.crm.qa.testcases.ContactsPageTest" />
+        
+       
+       
+ 
+    </classes>
+  </test>
+</suite>
